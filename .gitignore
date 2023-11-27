@@ -1,0 +1,11 @@
+#add a git ignore file, so the development files are not uploaded to github
+#ignore all py,ipynb,sql,yaml,xlsx,csv files:
+echo "*.py" > .gitignore
+echo "*.ipynb" >> .gitignore
+echo "*.sql" >> .gitignore
+echo "*.yaml" >> .gitignore
+echo "*.xlsx" >> .gitignore
+echo "*.csv" >> .gitignore
+echo "*.json" >> .gitignore
+echo "*.txt" >> .gitignore
+echo "*.md" >> .gitignore
